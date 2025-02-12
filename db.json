@@ -1,0 +1,41 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "Johni Cali",
+        "email": "joh@gmail.com",
+        "phone": "+27 79 123 4567",
+        "password": "securePassword123"
+      },
+      {
+        "id": "2",
+        "name": "Rachel ",
+        "email": "rachel@example.com",
+        "phone": "+66 81 287 6016"
+      }
+    ],
+    "bookings": [
+      {
+        "listingId": 1,
+        "startDate": "2024-04-03",
+        "endDate": "2024-05-03",
+        "userId": 1
+      }
+    ],
+    "listings": [
+      {
+        "id": 1,
+        "bath_num": 3,
+        "bed_num": 4,
+        "zip": 50210,
+        "address": "123 Morkel Road,France",
+        "city": "Johannesburg",
+        "street": "Lyndhurst",
+        "price": 500,
+        "sq_ft": 1500,
+        "email": "owner@example.com",
+        "userId": 2
+      }
+    ]
+  }
+  

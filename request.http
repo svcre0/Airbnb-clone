@@ -1,0 +1,21 @@
+
+GET http://localhost:5001/users/2
+
+
+GET http://localhost:5001/users/1/bookings
+
+
+POST http://localhost:5001/register
+Content-Type: application/json
+{
+"email": "john@gmail.com",
+"password": "12345"
+}
+
+POST http://localhost:5001/login
+Content-Type: application/json
+
+{
+"email": "nino@gmail.com",
+"password": "12345"
+}
